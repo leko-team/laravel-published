@@ -16,7 +16,7 @@ class PublicationScope implements Scope
      *
      * @var string[]
      */
-    protected $extensions = ['Unpublished', 'WithUnpublished', 'WithoutPublished'];
+    protected $extensions = ['NotPublished', 'WithUnpublished', 'WithoutPublished'];
 
     /**
      * Apply the scope to a given Eloquent query builder.
@@ -44,14 +44,14 @@ class PublicationScope implements Scope
     }
 
     /**
-     * Add the unpublished extension to the builder.
+     * Add the not-published extension to the builder.
      *
      * @param Builder $builder
      * @return void
      */
-    protected function addUnpublished(Builder $builder): void
+    protected function addNotPublished(Builder $builder): void
     {
-        $builder->macro('unpublished', function (Builder $builder) {
+        $builder->macro('notPublished', function (Builder $builder) {
             $model = $builder->getModel();
 
             return $builder->withoutGlobalScope($this)

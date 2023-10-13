@@ -65,11 +65,11 @@ $review->unpublish();
 By default from published entity return only published records.
 You can change this by applying scope to your Eloquent model.
 
-* unpublished
+* notPublished
 ```php
-$review = Review::unpublished()->get();
+$review = Review::notPublished()->get();
 ```
-Returns all unpublished record with null in `published_at` include records that must be published in the future.
+Returns all not published record with null in `published_at` include records that must be published in the future.
 
 * withUnpublished
 ```php

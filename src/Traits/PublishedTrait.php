@@ -8,6 +8,10 @@ use LekoTeam\LaravelPublished\Scopes\PublicationScope;
 
 /**
  * Trait for publish entity.
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder notPublished()
+ * @method static \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder withUnpublished()
+ * @method static \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Query\Builder withoutPublished()
  */
 trait PublishedTrait
 {
