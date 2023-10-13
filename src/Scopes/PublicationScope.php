@@ -1,6 +1,6 @@
 <?php
 
-namespace Leko\LaravelPublished\Scopes;
+namespace LekoTeam\LaravelPublished\Scopes;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

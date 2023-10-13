@@ -1,5 +1,5 @@
 {
-    "name": "leko/laravel-published",
+    "name": "leko-team/laravel-published",
     "description": "Ready-made solution for publishing an entity",
     "version": "1.0.0",
     "type": "library",
@@ -16,12 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Leko\\LaravelPublished\\": "src"
+            "LekoTeam\\LaravelPublished\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Leko\\LaravelPublished\\Tests\\": "tests"
+            "LekoTeam\\LaravelPublished\\Tests\\": "tests"
         }
     },
     "require-dev": {

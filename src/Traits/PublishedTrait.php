@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Leko\LaravelPublished\Traits;
+namespace LekoTeam\LaravelPublished\Traits;
 
 use Carbon\Carbon;
 use Closure;
-use Leko\LaravelPublished\Scopes\PublicationScope;
+use LekoTeam\LaravelPublished\Scopes\PublicationScope;
 
 /**
  * Trait for publish entity.
