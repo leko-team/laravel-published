@@ -1,7 +1,7 @@
 {
     "name": "leko-team/laravel-published",
     "description": "Ready-made solution for publishing an entity",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
