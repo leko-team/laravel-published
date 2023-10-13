@@ -10,7 +10,7 @@ simple API to work with.
 The library can be installed via Composer:
 
 ```bash
-composer require leko/laravel-published
+composer require leko-team/laravel-published
 ```
 
 ## Configuration
