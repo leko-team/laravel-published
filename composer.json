@@ -1,0 +1,31 @@
+{
+    "name": "leko/laravel-published",
+    "description": "Ready-made solution for publishing an entity",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Kolzhanov",
+            "email": "o.kolzhanov@leko.team"
+        },
+        {
+            "name": "Andrey Ryabishnikov",
+            "email": "a.ryabishnikov@leko.team"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leko\\LaravelPublished\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leko\\LaravelPublished\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.13.0",
+        "phpunit/phpunit": "^10.4"
+    }
+}
